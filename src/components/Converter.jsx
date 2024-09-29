@@ -18,7 +18,7 @@ function Converter() {
   };
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center relative bg-[#ffffff]">
-      <div className="w-[95%] max-w-lg shadow-lg flex flex-col items-center min-w-[330px] mx-auto rounded-lg bg-[#fdfdfd]">
+      <div className="w-[95%] max-w-lg shadow-lg flex flex-col items-center min-w-[330px] mx-auto rounded-lg bg-[#fcfcfc]">
         <h1 className="lg:text-3xl md:text-[1.5rem] font-semibold text-2xl px-8 mt-8">
           Currency Converter
         </h1>
@@ -30,7 +30,7 @@ function Converter() {
         )}
         {!loading && !error && (
           <>
-            <div className="input flex mt-8 w-full px-8 justify-between relative">
+            <div className="input flex mt-8 justify-between relative">
               <div className="fromInput flex flex-col relative">
                 <h1 className="sm:text-xl mb-1">From</h1>
                 <div className="flex gap-1 bg-slate-200  px-2 relative max-w-[115px] shadow-lg rounded-lg">
@@ -53,7 +53,7 @@ function Converter() {
                 </div>
               </div>
               <span
-                className="cursor-pointer h-12 mt-6 mx-[5vw] text-3xl shadow-lg bg-[#f2f2f2] px-2 sm:px-4 rounded-lg text-center flex justify-center items-center"
+                className="cursor-pointer h-12 mt-6 mx-12 text-3xl shadow-lg bg-[#f2f2f2] px-2 sm:px-4 rounded-lg text-center flex justify-center items-center"
                 onClick={swapCurr}
               >
                 ⇄
@@ -84,7 +84,7 @@ function Converter() {
               <input
                 type="number"
                 placeholder="Enter Amount"
-                className="text-center  py-5 sm:py-8 bg-[#efefef] text-[#000000] placeholder:text-[#bcbcbc] sm:text-2xl w-48 shadow-md font-semibold flex-grow rounded-lg text-xl outline-none"
+                className="text-center  py-5 sm:py-8 bg-[#efefef] text-[#000000] placeholder:text-[#bcbcbc] sm:text-2xl w-48 shadow-md font-semibold flex-grow rounded-lg text-xl outline-[#000000]"
                 onChange={(e) => setAmount(e.target.value)}
                 value={amount}
                 min={1}
