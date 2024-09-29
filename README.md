@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # stopwatch
 =======
 # React + Vite
@@ -22,3 +23,6 @@ Currently, two official plugins are available:
 =======
 # stopwatch01
 >>>>>>> 73167a651897a120c6ec598e21f74f0fce278d94
+=======
+# currencyConverter
+>>>>>>> f454bb6527e2f17d825fb1c32325f64c7433706d
